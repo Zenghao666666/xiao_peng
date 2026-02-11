@@ -4,4 +4,4 @@ from ultralytics import YOLO
 model = YOLO("best.pt")
 
 # Run inference on 'bus.jpg' with arguments
-model.predict("C:/Users/13380/Desktop/text1/54.bmp", save=True, imgsz=320, conf=0.5,)
+model.predict("C:/Users/13380/Desktop/Local detection/67.bmp", save=True, imgsz=320, conf=0.01)
